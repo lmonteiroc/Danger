@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trolagem</title>
+  <script>
+    window.onload = function() {
+      alert("⚠️ Atenção! Algo deu errado!");
+
+      // Simula uma mensagem confusa e engraçada
+      setTimeout(function() {
+        alert("O sistema detectou uma falha. Você deve reiniciar o computador!");
+      }, 2000); // Após 2 segundos, exibe o segundo alerta
+
+      setTimeout(function() {
+        alert("Mas não se preocupe, não foi nada grave. Continuamos monitorando...");
+      }, 4000); // Após 4 segundos, exibe o terceiro alerta
+    };
+  </script>
+</head>
+<body>
+  <h1>Bem-vindo à sua página!</h1>
+  <p>Essa página vai mostrar alguns alertas assim que for carregada.</p>
+</body>
+</html>
